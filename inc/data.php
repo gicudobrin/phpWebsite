@@ -1,62 +1,55 @@
 <?php
 $catalog = [];
 $catalog[101] = [
-	"title" => "A Design Patterns: Elements of Reusable Object-Oriented Software",
-	"img" => "img/media/design_patterns.jpg",
-    "genre" => "Tech",
+	"title" => "Padurea Spanzuratilor",
+	"img" => "img/media/padure.jpg",
+    "genre" => "History",
     "format" => "Paperback",
-    "year" => 1994,
+    "year" => 2012,
     "category" => "Books",
     "authors" => [
-        "Erich Gamma",
-        "Richard Helm",
-        "Ralph Johnson",
-        "John Vlissides"
+        "Liviu Rebrreanu",
     ],
-    "publisher" => "Prentice Hall",
+    "publisher" => "Teora",
     "isbn" => '978-0201633610'
 ];
 $catalog[102] = [
-    "title" => "Clean Code: A Handbook of Agile Software Craftsmanship",
-    "img" => "img/media/clean_code.jpg",
-    "genre" => "Tech",
+    "title" => "Moara cu noroc",
+    "img" => "img/media/moara.jpg",
+    "genre" => "History",
     "format" => "Ebook",
     "year" => 2008,
     "category" => "Books",
     "authors" => [
-        "Robert C. Martin"
+        "Ioan Slavici"
     ],
-    "publisher" => "Prentice Hall",
+    "publisher" => "Coresi",
     "isbn" => '978-0132350884'
 ];
 $catalog[103] = [
-    "title" => "Refactoring: Improving the Design of Existing Code",
-    "img" => "img/media/refactoring.jpg",
-    "genre" => "Tech",
+    "title" => "Fratii Jderi",
+    "img" => "img/media/fratii.jpg",
+    "genre" => "History",
     "format" => "Hardcover",
     "year" => 1999,
     "category" => "Books",
     "authors" => [
-        "Martin Fowler",
-        "Kent Beck",
-        "John Brant",
-        "William Opdyke",
-        "Don Roberts"
+        "Mihail Sadoveanu",
     ],
-    "publisher" => "Addison-Wesley Professional",
+    "publisher" => "Universitaria",
     "isbn" => '978-0201485677'
 ];
 $catalog[104] = [
-    "title" => "The Clean Coder: A Code of Conduct for Professional Programmers",
-    "img" => "img/media/clean_coder.jpg",
-    "genre" => "Tech",
+    "title" => "Ion",
+    "img" => "img/media/ion.jpeg",
+    "genre" => "Drama",
     "format" => "Audio",
     "year" => 2011,
     "category" => "Books",
     "authors" => [
-        "Robert C. Martin"
+        "Liviu Rebrreanu"
     ],
-    "publisher" => "Prentice Hall",
+    "publisher" => "Bucuresti",
     "isbn" => '007-6092046981'
 ];
 //Movies
@@ -140,39 +133,39 @@ $catalog[204] = [
 ];
 //Music
 $catalog[301] = [
-    "title" => "Beethoven: Complete Symphonies",
-    "img" => "img/media/beethoven.jpg",
-    "genre" => "Clasical",
-    "format" => "CD",
-    "year" => 2012,
+    "title" => "Holograf: Banii vorbesc",
+    "img" => "img/media/holograf.jpg",
+    "genre" => "Dance",
+    "format" => "Cassette",
+    "year" => 1997,
     "category" => "Music",
-    "artist" => "Ludwig van Beethoven"
+    "artist" => "Holograf"
 ];
 $catalog[302] = [
-    "title" => "Elvis Forever",
-    "img" => "img/media/elvis_presley.jpg",
-    "genre" => "Rock",
+    "title" => "B.U.G. Mafia - Inapoi in viitor",
+    "img" => "img/media/mafia.jpg",
+    "genre" => "Hip Hop",
     "format" => "Vinyl",
     "year" => 2015,
     "category" => "Music",
-    "artist" => "Elvis Presley"
+    "artist" => "B.U.G. Mafia"
 ];
 $catalog[303] = [
-    "title" => "No Fences",
-    "img" => "img/media/garth_brooks.jpg",
-    "genre" => "Country",
-    "format" => "Cassette",
-    "year" => 1990,
+    "title" => "Smiley - Acasa",
+    "img" => "img/media/smiley.jpg",
+    "genre" => "Dance",
+    "format" => "CD",
+    "year" => 2017,
     "category" => "Music",
-    "artist" => "Garth Brooks"
+    "artist" => "Smiley"
 ];
 $catalog[304] = [
-    "title" => "The Very Thought of You",
-    "img" => "img/media/nat_king_cole.jpg",
-    "genre" => "Jaz",
+    "title" => "Delia - Pe aripi de vant",
+    "img" => "img/media/delia.jpg",
+    "genre" => "Dance",
     "format" => "MP3",
-    "year" => 2008,
+    "year" => 2014,
     "category" => "Music",
-    "artist" => "Nat King Cole"
+    "artist" => "Delia"
 ];
 ?>

@@ -1,12 +1,17 @@
 <?php 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = trim($_POST["name"]);
-    $email = trim($_POST["email"]);
-    $details = trim($_POST["details"]);
+    $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
+    $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL));
+    $details = trim(filter_input(INPUT_POST, "details", FILTER_SANITIZE_SPECIAL_CHARS));
 
     if ($name=="" || $email=="" || $details =="") {
         echo "Please fill in the requierd fields: Name, Email and Details!";
+        exit;
+    }
+
+    if ($_POST["address"] != "") {
+        echo "Bad form input";
         exit;
     }
 
@@ -48,8 +53,13 @@ include("inc/header.php"); ?>
                 <th><label for="name">Suggest Item Details</label></th>
                 <td><textarea name="details" id="details" placeholder="Write your text here..."></textarea></td>
             </tr>
+            <tr style="display: none;">
+                <th><label for="address">Address</label></th>
+                <td><input type="text" id="address" name="address">
+                    <p>Please leave this field blank</p></td>
+            </tr>
             </table>
-            <input type="submit" value="Send" />
+            <input type="submit" value="Send">
         </form>
         <?php } ?>
     </div>
