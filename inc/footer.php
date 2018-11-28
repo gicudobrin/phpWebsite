@@ -5,11 +5,10 @@
 		<div class="wrapper">
 
 			<ul>		
-				<li><a href="http://twitter.com/treehouse">Twitter</a></li>
-				<li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
+				<li><a href="https://github.com/gicudobrin/phpWebsite" target="_blank">GitHub</a></li>
 			</ul>
 
-			<p>&copy;<?php echo date("Y"); ?> Personal Media Library</p>
+			<p>&copy;<?php echo date("Y"); ?>Romanian Media Library</p>
 
 		</div>
 	

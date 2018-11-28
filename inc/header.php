@@ -2,8 +2,6 @@
 <html>
 <head>
 	<title><?php echo $pageTitle; ?></title>
-	<link href="style.css?<?=filemtime("style.css")?>" rel="stylesheet" type="text/css" />
-	<link href="style.css?v=<?php echo time(); ?>" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
@@ -12,7 +10,7 @@
 
 		<div class="wrapper">
 
-			<h1 class="branding-title"><a href="./">CE ,maaaa</a></h1>
+			<h1 class="branding-title"><a href="./">Romanian Media Library</a></h1>
 
 			<ul class="nav">
                 <li class="books<?php if ($section == "books") { echo " on"; } ?>"><a href="catalog.php?cat=books">Books</a></li>
