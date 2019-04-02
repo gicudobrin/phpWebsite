@@ -1,5 +1,11 @@
 <?php 
 
+
+//Import the PHPMailer class into the global namespace
+use PHPMailer\PHPMailer\PHPMailer;
+require 'vendor/phpmailer/src/PHPMailer.php';
+require 'vendor/phpmailer/src/Exception.php';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = trim(filter_input(INPUT_POST, "name", FILTER_SANITIZE_STRING));
     $email = trim(filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL));
